@@ -1,0 +1,546 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"project_",
+				"project_base_path"
+			],
+			[
+				"m_h",
+				"m_hGSPEvent"
+			],
+			[
+				"m_FB",
+				"m_FBTop"
+			],
+			[
+				"bytes",
+				"bytes_btm"
+			],
+			[
+				"D3DS_",
+				"D3DS_FRAMEBUFFER_TOP_LEFT"
+			],
+			[
+				"Get",
+				"GetFramebufferPtr"
+			],
+			[
+				"m_FBF",
+				"m_FBFormatTop"
+			],
+			[
+				"D3DS_SC",
+				"D3DS_SCREEN_BOTTOM"
+			],
+			[
+				"m_FBIN",
+				"m_FBInfoBottom"
+			],
+			[
+				"D3D_SC",
+				"D3DS_SCREEN_BOTTOM"
+			],
+			[
+				"GSPGPU_SetBuf",
+				"GSPGPU_SetBufferSwap"
+			],
+			[
+				"m_FBIn",
+				"m_FBInfoTop"
+			],
+			[
+				"bIm",
+				"bImmediate"
+			],
+			[
+				"SetFr",
+				"SetFramebufferInfo"
+			],
+			[
+				"Fram",
+				"Framebuffer"
+			],
+			[
+				"m_",
+				"m_hGSPEvent"
+			],
+			[
+				"m_p",
+				"m_pSharedMemory"
+			],
+			[
+				"D3DS",
+				"D3DS_SCREEN_TOP"
+			],
+			[
+				"m_FBInfo",
+				"m_FBInfoBottom"
+			],
+			[
+				"GSP",
+				"GSPGPU_FramebufferInfo"
+			],
+			[
+				"by",
+				"bytes_top"
+			],
+			[
+				"mFB",
+				"m_FBFormatTop"
+			],
+			[
+				"D3DSD",
+				"D3DSDevice"
+			],
+			[
+				"FB",
+				"FBFormatBottom"
+			],
+			[
+				"Fb",
+				"FBFormatTop"
+			],
+			[
+				"bEN",
+				"bEnable3D"
+			],
+			[
+				"FBFor",
+				"FBFormatBottom"
+			],
+			[
+				"D3",
+				"D3DSDevice"
+			],
+			[
+				"GSPGPU_Fram",
+				"GSPGPU_FramebufferFormats"
+			],
+			[
+				"l",
+				"libctru"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/device.h",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Windows",
+				"name": "#pragma once"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 7397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/device.cpp",
+			"settings":
+			{
+				"buffer_size": 6221,
+				"line_ending": "Windows",
+				"name": "#include	\"device.h\""
+			}
+		},
+		{
+			"file": "source/main.cpp",
+			"settings":
+			{
+				"buffer_size": 862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 348,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 189.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: List Packages"
+			],
+			[
+				"make",
+				"Build With: Make - Clean"
+			],
+			[
+				"clean",
+				"Build With: Make - Clean"
+			]
+		],
+		"width": 534.0
+	},
+	"console":
+	{
+		"height": 346.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Development/3ds/testbed",
+		"/E/Development/3ds/testbed/source"
+	],
+	"file_history":
+	[
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/ClangAutoComplete/ClangAutoComplete.sublime-settings",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/ClangAutoComplete/Main.sublime-menu",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/ClangAutoComplete/ClangAutoComplete.py",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/ClangAutoComplete/README.md",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/E/Development/3ds/testbed/Makefile",
+		"/E/Development/3ds/ctrulib/libctru/Doxyfile",
+		"/E/Development/3ds/ctrulib/libctru/source/allocator/vram.cpp",
+		"/E/Development/3ds/testbed/source/main.c",
+		"/E/Development/3ds/ctrulib/libctru/source/allocator/mem_pool.h",
+		"/E/Development/devkitPro/libctru/include/3ds/gfx.h",
+		"/E/Development/devkitPro/libctru/include/3ds.h",
+		"/E/Development/3ds/testbed/README.md",
+		"/E/Development/ctrQuake/Makefile",
+		"/E/Development/citro3d/Makefile",
+		"/E/Development/devkitPro/examples/3ds/Makefile",
+		"/E/Development/ctrQuake/source/gl_draw.c",
+		"/e/Development/ctrQuake/source/net_udpctr.c",
+		"/E/Development/devkitPro/examples/3ds/templates/application/source/main.c",
+		"/E/Development/ctrQuake/README.md",
+		"/E/Development/devkitPro/examples/3ds/graphics/gpu/gputest/source/test_gsh.shader",
+		"/E/Development/devkitPro/examples/3ds/graphics/gpu/gputest/source/main.c",
+		"/E/Development/devkitPro/examples/3ds/graphics/gpu/fragment_light/source/vshader.v.pica"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/device.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								911,
+								911
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#pragma once",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 93.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2411,
+								2411
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/device.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3116,
+								3116
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include	\"device.h\"",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1282.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Andreas/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 335.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "testbed.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
