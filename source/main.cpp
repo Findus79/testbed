@@ -23,7 +23,7 @@ int main()
 		hidScanInput();
 
 		// Your code goes here
-				
+		
 
 		u32 kDown = hidKeysDown();
 		if (kDown & KEY_START)
