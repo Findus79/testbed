@@ -175,10 +175,32 @@ D3DSDevice::SwapBuffers( bool bImmediate )
     }
     else
     {
-        //WriteFramebufferInfo( D3DS_SCREEN_TOP );
-        //WriteFramebufferInfo( D3DS_SCREEN_BOTTOM );
+        WriteFramebufferInfo( D3DS_SCREEN_TOP );
+        WriteFramebufferInfo( D3DS_SCREEN_BOTTOM );
     }
 }
+
+
+void
+D3DSDevice::WriteFramebufferInfo( D3DSScreen screen )
+{
+    u8* p_fb_info_header = m_pSharedMemory + 0x200 + m_ThreadId * 0x80;
+    
+    if (D3DS_SCREEN_BOTTOM==screen)
+        p_fb_info_header += 0x40;
+
+    GSPGPU_FramebufferInfo* p_fb_info = (GSPGPU_FramebufferInfo*) &p_fb_info_header[ 0x4 ];
+
+    p_fb_info_header[ 0x0 ] ^= m_FrameID;
+
+    if (D3DS_SCREEN_BOTTOM==screen)
+        p_fb_info[ p_fb_info_header[0x0]] = m_FBInfoBottom;
+    else
+        p_fb_info[ p_fb_info_header[0x0]] = m_FBInfoTop;
+
+    p_fb_info_header[ 0x1 ] = 0x1;
+}
+
 
 void
 D3DSDevice::FlushBuffers()

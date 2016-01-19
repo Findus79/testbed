@@ -1,5 +1,7 @@
 #pragma once
 
+
+#include    "commandbuffer.h"
 #include	<3ds.h>
 
 
@@ -45,12 +47,15 @@ namespace D3DS {
         void SwapBuffers    ( bool bImmediate );
         void WaitForVBlank  ();
 
+        void ExecuteCommandBuffer( CommandBuffer& cmdBuffer );
 
 	private:
 
 		D3DSDevice() {}
 		
         void SetFramebufferInfo( D3DSScreen Screen, u32 frameid );
+
+        void WriteFramebufferInfo( D3DSScreen screen );
 		
 		bool m_b3DEnabled = false;
 
